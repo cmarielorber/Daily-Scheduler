@@ -2,12 +2,13 @@
 const todayDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todayDate);
 
-function clear_details(){
-    details=document.getElementsByClassName('clearDay')
-    for(input of details){
-    	input.value=' ' ///this emptys the inputs
-    }
-  }
+document.addEventListener("click", clearDay);
+console.log(clearDay)
+
+$("#clearDay").on("click", function () {
+    localStorage.clear();
+})
+
 
 $(document).ready(function () {
     // saveBtn click listener 
@@ -21,11 +22,12 @@ $(document).ready(function () {
     })
 
     function timeTracker() {
-        //current number of hours.
+        //current number of hours
         const timeNow = moment().hour();
 
         $(".timeBlock").each(function () {
             const blockTime = parseInt($(this).attr("id").split("hour")[1]);
+      
 
             if (blockTime < timeNow) {
                 $(this).removeClass("future");

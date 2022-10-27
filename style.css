@@ -39,7 +39,7 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     color: #000000;
     border-top: 1px dashed #000000;
     display: flex;
@@ -48,7 +48,7 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: gainsboro;
     color: white;
   }
   
