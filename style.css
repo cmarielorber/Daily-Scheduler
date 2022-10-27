@@ -9,14 +9,15 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    
+    border-left: 2px solid black;
     padding: 10px;
   }
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background-color: darkslategrey;
+    color: whitesmoke;
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -61,7 +62,7 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid black;
+    border-left: 2px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: darkcyan;
@@ -72,9 +73,8 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
-  /*** OVERWRITE - MEDIA QUERY FOR TABLETS AND SMALLER  ***/
-/* This will be applied on any screen 768px and bellow */
+
+/*on any screen 768px and bellow */
 @media screen and (max-width: 768px), screen and (max-width: 575px) {
   .row {
     height: auto;
