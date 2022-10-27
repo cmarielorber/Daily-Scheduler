@@ -7,7 +7,21 @@ console.log(clearDay)
 
 $("#clearDay").on("click", function () {
     localStorage.clear();
-})
+    $("#hour8 .details").val("");
+    $("#hour9 .details").val("");
+    $("#hour10 .details").val("");
+    $("#hour11 .details").val("");
+    $("#hour12 .details").val("");
+    $("#hour13 .details").val("");
+    $("#hour14 .details").val("");
+    $("#hour15 .details").val("");
+    $("#hour16 .details").val("");
+    $("#hour17 .details").val("");
+    $("#hour18 .details").val("");
+    $("#hour19 .details").val("");
+    $("#hour20 .details").val("");
+});
+// but you then need to loop over your textareas and set the value of all the field to an empty string
 
 
 $(document).ready(function () {
