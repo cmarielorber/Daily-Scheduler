@@ -9,7 +9,7 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    
+
     border-left: 2px solid black;
     padding: 10px;
   }
@@ -21,6 +21,7 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
+
   
   .details {
     white-space: pre-wrap;

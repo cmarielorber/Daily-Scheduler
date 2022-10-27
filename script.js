@@ -2,22 +2,28 @@
 const todayDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todayDate);
 
+function clear_details(){
+    details=document.getElementsByClassName('clearDay')
+    for(input of details){
+    	input.value=' ' ///this emptys the inputs
+    }
+  }
+
 $(document).ready(function () {
     // saveBtn click listener 
     $(".saveBtn").on("click", function () {
-      
+
         const text = $(this).siblings(".details").val();
         const time = $(this).parent().attr("id");
 
         // local storage
         localStorage.setItem(time, text);
     })
-   
+
     function timeTracker() {
         //current number of hours.
         const timeNow = moment().hour();
 
-        
         $(".timeBlock").each(function () {
             const blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
