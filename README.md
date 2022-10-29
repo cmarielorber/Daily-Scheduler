@@ -4,7 +4,7 @@ Week 5 Homework-Third Party API's
 
 
 ## Description
-Refactoring weeek. This week we were to instruct a daily calendar app which allows it's user to save events for each hour of a work day. CSS was powered by jQuery and moment library was imported for date/time. I also added a ClearDay button which refreshes the event details. 
+Refactoring week. This week we were to instruct a daily calendar app which allows it's user to save events for each hour of a work day. CSS was powered by jQuery and moment library was imported for date/time. I also added a ClearDay button which refreshes the event details. 
 Although I am still trying to understand where it all goes and the why, and the differences between jQuery and Vanilla JS...it's functional. 
 
 
