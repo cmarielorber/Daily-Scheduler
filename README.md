@@ -8,7 +8,8 @@ Refactoring weeek. This week we were to instruct a daily calendar app which allo
 Although I am still trying to understand where it all goes and the why, and the differences between jQuery and Vanilla JS...it's functional. 
 
 
-![cmarielorber github io_Daily-Scheduler_](https://user-images.githubusercontent.com/109984761/198393627-5a0cc23e-de32-4ec7-a100-ad59196c7e8e.png)
+![cmarielorber github io_Daily-Scheduler_](https://user-images.githubusercontent.com/109984761/198849089-c11c38ef-8605-43de-bf54-61833c5adace.png)
+
 
 
 ## Link
